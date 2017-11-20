@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import React from "react";
 import {render} from "react-dom";
-import HelloComponent  from "./components/App/Hello";
+import  DashboardContainer from "./components/Router/Dashboard";
 import "../styles/index.scss";
 
 document.addEventListener("DOMContentLoaded", () => {
-	render(<HelloComponent/>, document.querySelector("#app"));
+	render(<DashboardContainer />, document.querySelector("#app"));
 });
